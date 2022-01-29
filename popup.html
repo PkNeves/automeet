@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    <meta charset='UTF-8'>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="agendar-box">
+      <h1> Auto Meet </h1>
+      <h2> Agendar compromisso: </h2>
+      
+      <div class="agendar-form">
+      <div class="column">
+        <input type="text" name="name" placeholder="Cálculo 3">
+        <label> nome </label>
+        <input type="url" name="link" placeholder="https://meet.google.com/zzz-zzz-zzz">
+        <label> link </label>
+        <div class="row">
+          <select class="select-week" name="week-day">
+            <option value='0'>Domingo</option>
+            <option value='1'>Segunda</option>
+            <option value='2'>Terça</option>
+            <option value='3'>Quarta</option>
+            <option value='4'>Quinta</option>
+            <option value='5'>Sexta</option>
+            <option value='6'>Sábado</option>
+          </select>
+          <input type="time" name="time">
+
+        </div>
+         <div class="row">
+           <div>
+            <input type="checkbox" name="recurrent" checked> Recorrente
+           </div>
+        </div>
+        <button class="agendar">Agendar</button>
+        </div>
+        </div>
+        <div class="agendamentos-box">
+          <h2> Compromissos agendados: </h2>
+  
+          <div class="agendamentos">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

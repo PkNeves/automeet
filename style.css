@@ -1,0 +1,190 @@
+body {
+  font-size: 10px;
+  background-color: #DBE0E6;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 250px;
+  margin: 0;
+}
+
+.container h1 {
+  font-size: 1.5em;
+  padding: 5px 0;
+}
+
+.container h2 {
+  font-size: 1.3em;
+}
+
+.container h3 {
+  font-size: 1.1em;
+}
+
+input[type=text], input[type=time] {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+input[type=url], input[type=time] {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.elem {
+  padding: 10px;
+  width: 90px;
+  border-radius: 10px;
+  color: black;
+  font-weight: 600;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+input.elem {
+  color: white;
+  font-size: 1.5em;
+  background-color: #202124;
+  width: 55px;
+  padding: 5px 0px 5px 3px;
+  opacity: 0.4;
+  border-radius: 10px;
+  border: 2px solid #C7C8CC;
+  box-sizing: border-box;
+}
+
+input[type=number].elem::-webkit-inner-spin-button {
+  position: absolute;
+  top:0;
+  right:0;
+  opacity: 1;
+  height: 100%;
+}
+  
+.active {
+  background-color: #66ff66;
+  color: #C7C8CC;
+}
+  
+.inative {
+  color: gray;
+  background-color: #C7C8CC;
+  
+}
+
+.margin10 {
+  margin: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+  justify-content: space-between;
+}
+
+.week {
+  justify-content: space-between;
+}
+
+label {
+  margin-bottom: 10px;
+  margin-left: 1px;
+}
+
+.btn-week {
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+.btn-week:hover {
+  background-color: #bfbfbf;
+}
+
+.agendar {
+  font-weight: 900;
+  color: #0B0A07;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid #0B0A07;
+  padding: 8px 10px;
+}
+
+.agendar:hover {
+  color: white;
+  background-color: #3657EC;
+  border: 2px solid #3657EC;
+}
+
+.select-week {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+}
+
+.agendamento-elemento {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fechar {
+  background-color: #F6531C;
+  color: #202020;
+  font-weight: 900;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+
+.agendamentos-box {
+  margin-top: 20px;
+  color: white;
+  background-color: #564787;
+  padding: 1px 10px 10px 10px;
+  border-radius: 8px;
+}
+
+.agendamentos {
+  font-size: 1.1em;
+  font-weight: 900;
+  color: black;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: white;
+
+}
+
+.agendar-box {
+  color: white;
+  background-color: #564787;
+  padding: 1px 10px 10px 10px;
+  border-radius: 8px;
+}
+
+.agendar-form {
+   font-size: 1.1em;
+  color: black;
+  padding: 20px 14px;
+  border-radius: 4px;
+  background-color: white;
+}
