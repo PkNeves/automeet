@@ -1,5 +1,5 @@
 # Auto Meet
-Ferramenta que sai automaticamente de uma reunião do Google Meet.
+Ferramenta que reune várias funcionalidades a uma reunião do Google Meet.
 
 ## Descrição
 A ideia da ferramenta é juntar várias funcionalidades em um lugar só como:
