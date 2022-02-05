@@ -1,9 +1,11 @@
-# Quit Meet
+# Auto Meet
 Ferramenta que sai automaticamente de uma reunião do Google Meet.
 
 ## Descrição
-A ferramenta tem um campo para colocar um número mínimo de pessoas para ela ativar e um botão de ativação.
-Quando o botão está ativo, a extesão começa a verificar o número de participantes presentes já chamada. Se o número de participantes for menor ou igual ao valor colocado, a extensão, automaticamente, saí da chamada.
+A ideia da ferramenta é juntar várias funcionalidades em um lugar só como:
+- Sair automaticamente da chamada quando o número de participates for menor que o definido
+- Entrar automaticamente nas chamadas
+- Fazer "chamada" salvar quais usuários estão presentes no presente momento
 
 ### Pré-requisito 
 Navegador Google Chrome
@@ -15,11 +17,8 @@ Navegador Google Chrome
 - Clique no botão do canto superior direito, chamado 'Modo desenvolvedor'
 - Como o modo desenvolvedor ativo, vai aparecer a opção 'Carregar sem compactação', no canto superior esquerdo
 - Selecione a pasta baixada e confirme
-- Aparecerá um card do quitmeet. Caso o botão do card não esteja ativo, ative ele. O botão fica no canto inferior direito do card
+- Aparecerá um card do automeet. Caso o botão do card não esteja ativo, ative ele. O botão fica no canto inferior direito do card
 - Pronto, sua extesão já está ativa e pronta pra ser usada
 
 ### Como usar
-Se os passos de ativação foram seguidos, quando você entregar em uma nova chamada do meet, aparecerá um elemento a mais no canto inferior direito da sua chamada. Esse elemento é composto de um botão e um campo para digitar o número de pessoas.
-Se o elemento apareceu na sua tela do meet, basta seguir os passos abaixo
-- Coloque o número mínimo de pessoas que você deseja para que a aplicação saia da chamada por você
-- Cliquei no botão 'quitmeet' para ativar o funcionamento.
+Ao clicar no ícone da extensão, aparecerá um pop-up para você escolher suas configurações da chamada
